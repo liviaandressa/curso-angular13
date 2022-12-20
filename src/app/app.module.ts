@@ -4,10 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { InterpolacaoDeDadosComponent } from './components/component/interpolacao-de-dados/interpolacao-de-dados.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InterpolacaoDeDadosComponent
   ],
   imports: [
     BrowserModule,
