@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { InterpolacaoDeDadosComponent } from './components/component/interpolacao-de-dados/interpolacao-de-dados.component';
 import { CompartilhandoDadosComponent } from './components/component/compartilhando-dados/compartilhando-dados.component';
+import { DiretivasComponent } from './components/component/diretivas/diretivas.component';
 
 
 
@@ -13,7 +14,8 @@ import { CompartilhandoDadosComponent } from './components/component/compartilha
   declarations: [
     AppComponent,
     InterpolacaoDeDadosComponent,
-    CompartilhandoDadosComponent
+    CompartilhandoDadosComponent,
+    DiretivasComponent
   ],
   imports: [
     BrowserModule,
