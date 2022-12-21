@@ -5,12 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { InterpolacaoDeDadosComponent } from './components/component/interpolacao-de-dados/interpolacao-de-dados.component';
+import { CompartilhandoDadosComponent } from './components/component/compartilhando-dados/compartilhando-dados.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    InterpolacaoDeDadosComponent
+    InterpolacaoDeDadosComponent,
+    CompartilhandoDadosComponent
   ],
   imports: [
     BrowserModule,
