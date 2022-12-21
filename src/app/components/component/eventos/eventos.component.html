@@ -1,0 +1,8 @@
+<h1>Aula de eventos</h1>
+
+<p *ngIf="mensagem"> mostrando uma mensagem de evento</p>
+<button (click)="exibirMensagem()">clique aqui</button>
+<br>
+
+<h2 *ngIf="titulo">testando mais um evento</h2>
+<button [ngStyle]="{color: 'red'}" (click)="redirecionar()"> evento</button>
