@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { InterpolacaoDeDadosComponent } from './components/component/interpolacao-de-dados/interpolacao-de-dados.component';
 import { CompartilhandoDadosComponent } from './components/component/compartilhando-dados/compartilhando-dados.component';
 import { DiretivasComponent } from './components/component/diretivas/diretivas.component';
+import { CondicionaisComponent } from './components/component/condicionais/condicionais.component';
 
 
 
@@ -15,7 +16,8 @@ import { DiretivasComponent } from './components/component/diretivas/diretivas.c
     AppComponent,
     InterpolacaoDeDadosComponent,
     CompartilhandoDadosComponent,
-    DiretivasComponent
+    DiretivasComponent,
+    CondicionaisComponent
   ],
   imports: [
     BrowserModule,
