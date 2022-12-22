@@ -1,0 +1,11 @@
+<!--este componente tem o evento que vai ser emitido do componente filho-->
+<h1>Emitindo eventos no angular</h1>
+
+<h3>o numero é: {{meuNumero}}</h3>
+
+<app-emitindo-eventos-filho (enviarNumero)="onEnviarNumero()"></app-emitindo-eventos-filho>
+<!--enviarNumero foi o evento criado no componente filho-->
+<!--onEnviarNumero possui a logica do que vai ser feito quando ocorrer o evento-->
+
+
+<!--esse tipo de emissao permite ter um único evento que pode ser base para vários componentes. Por exemplo: posso ter esse evento sendo utilizado parra mostar numeros em um componente, em outro componente pode ser mostrado uma lista de nomes e assim em diante.-->

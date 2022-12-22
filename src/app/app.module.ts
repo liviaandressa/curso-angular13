@@ -9,6 +9,8 @@ import { CompartilhandoDadosComponent } from './components/component/compartilha
 import { DiretivasComponent } from './components/component/diretivas/diretivas.component';
 import { CondicionaisComponent } from './components/component/condicionais/condicionais.component';
 import { EventosComponent } from './components/component/eventos/eventos.component';
+import { EmitindoEventosComponent } from './components/component/emitindo-eventos/emitindo-eventos.component';
+import { EmitindoEventosFilhoComponent } from './components/component/emitindo-eventos-filho/emitindo-eventos-filho.component';
 
 
 
@@ -19,7 +21,9 @@ import { EventosComponent } from './components/component/eventos/eventos.compone
     CompartilhandoDadosComponent,
     DiretivasComponent,
     CondicionaisComponent,
-    EventosComponent
+    EventosComponent,
+    EmitindoEventosComponent,
+    EmitindoEventosFilhoComponent
   ],
   imports: [
     BrowserModule,
