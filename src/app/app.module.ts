@@ -11,6 +11,7 @@ import { CondicionaisComponent } from './components/component/condicionais/condi
 import { EventosComponent } from './components/component/eventos/eventos.component';
 import { EmitindoEventosComponent } from './components/component/emitindo-eventos/emitindo-eventos.component';
 import { EmitindoEventosFilhoComponent } from './components/component/emitindo-eventos-filho/emitindo-eventos-filho.component';
+import { RenderizacaoListasComponent } from './components/component/renderizacao-listas/renderizacao-listas.component';
 
 
 
@@ -23,7 +24,8 @@ import { EmitindoEventosFilhoComponent } from './components/component/emitindo-e
     CondicionaisComponent,
     EventosComponent,
     EmitindoEventosComponent,
-    EmitindoEventosFilhoComponent
+    EmitindoEventosFilhoComponent,
+    RenderizacaoListasComponent
   ],
   imports: [
     BrowserModule,
