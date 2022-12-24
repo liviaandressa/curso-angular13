@@ -12,7 +12,7 @@ import { EventosComponent } from './components/component/eventos/eventos.compone
 import { EmitindoEventosComponent } from './components/component/emitindo-eventos/emitindo-eventos.component';
 import { EmitindoEventosFilhoComponent } from './components/component/emitindo-eventos-filho/emitindo-eventos-filho.component';
 import { RenderizacaoListasComponent } from './components/component/renderizacao-listas/renderizacao-listas.component';
-
+import { PipeOperatorsComponent } from './components/component/pipe-operators/pipe-operators.component';
 
 
 @NgModule({
@@ -25,7 +25,8 @@ import { RenderizacaoListasComponent } from './components/component/renderizacao
     EventosComponent,
     EmitindoEventosComponent,
     EmitindoEventosFilhoComponent,
-    RenderizacaoListasComponent
+    RenderizacaoListasComponent,
+    PipeOperatorsComponent
   ],
   imports: [
     BrowserModule,
