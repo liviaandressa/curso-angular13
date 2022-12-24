@@ -13,6 +13,7 @@ import { EmitindoEventosComponent } from './components/component/emitindo-evento
 import { EmitindoEventosFilhoComponent } from './components/component/emitindo-eventos-filho/emitindo-eventos-filho.component';
 import { RenderizacaoListasComponent } from './components/component/renderizacao-listas/renderizacao-listas.component';
 import { PipeOperatorsComponent } from './components/component/pipe-operators/pipe-operators.component';
+import { TwoWayBindingComponent } from './components/component/two-way-binding/two-way-binding.component';
 
 
 @NgModule({
@@ -26,12 +27,13 @@ import { PipeOperatorsComponent } from './components/component/pipe-operators/pi
     EmitindoEventosComponent,
     EmitindoEventosFilhoComponent,
     RenderizacaoListasComponent,
-    PipeOperatorsComponent
+    PipeOperatorsComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
