@@ -14,6 +14,8 @@ import { EmitindoEventosFilhoComponent } from './components/component/emitindo-e
 import { RenderizacaoListasComponent } from './components/component/renderizacao-listas/renderizacao-listas.component';
 import { PipeOperatorsComponent } from './components/component/pipe-operators/pipe-operators.component';
 import { TwoWayBindingComponent } from './components/component/two-way-binding/two-way-binding.component';
+import { ListaService } from './components/component/renderizacao-listas/services/lista.service';
+
 
 
 @NgModule({
@@ -28,14 +30,14 @@ import { TwoWayBindingComponent } from './components/component/two-way-binding/t
     EmitindoEventosFilhoComponent,
     RenderizacaoListasComponent,
     PipeOperatorsComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
   ],
-  providers: [],
+  providers: [ListaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

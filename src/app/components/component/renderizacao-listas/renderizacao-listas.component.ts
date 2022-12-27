@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Animal } from 'app/interfaces/animais';
+import { ListaService } from './services/lista.service';
 @Component({
   selector: 'app-renderizacao-listas',
   templateUrl: './renderizacao-listas.component.html',
@@ -18,12 +19,17 @@ export class RenderizacaoListasComponent implements OnInit {
 
   detalhesAnimal = ''
 
-  constructor() { }
 
+  constructor(private servicos: ListaService){}
   ngOnInit() {
   }
 
   mostrarIdade(animal: Animal){
     this.detalhesAnimal = `o ${animal.nome} tem ${animal.id} anos`
+  }
+
+  removerAnimal(animal: Animal){
+    //console.log('testando service');
+    this.listaAnimais = this.servicos.remover(this.listaAnimais, animal)
   }
 }
